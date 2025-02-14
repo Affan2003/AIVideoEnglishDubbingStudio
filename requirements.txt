@@ -1,0 +1,10 @@
+streamlit
+whisper
+torch
+numpy
+gTTS
+ffmpeg-python
+pandas
+opencv-python-headless
+moviepy
+gradio
