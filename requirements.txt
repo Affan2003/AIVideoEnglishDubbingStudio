@@ -1,6 +1,6 @@
-streamlit
+streamlit==1.43.2
+torch==2.6.0
 openai-whisper
-torch
 numpy
 gTTS
 ffmpeg-python
