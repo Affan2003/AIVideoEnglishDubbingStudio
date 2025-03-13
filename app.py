@@ -34,8 +34,8 @@ if uploaded_file is not None:
 
     # Step 2: Transcribe audio using Whisper
     st.write("📝 Transcribing audio using Whisper...")
-    model = whisper.load_model("small")
-    result = model.transcribe(audio_file_path, language="en")
+    model = whisper.load_model("tiny")
+    result = model.transcribe(audio_file_path, task="translate")
     transcription = result["text"]
 
     # Step 3: Generate English audio using gTTS
