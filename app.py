@@ -34,7 +34,7 @@ if uploaded_file is not None:
 
     # Step 2: Transcribe audio using Whisper
     st.write("📝 Transcribing audio using Whisper...")
-    model = whisper.load_model("base")
+    model = whisper.load_model("small")
     result = model.transcribe(audio_file_path, language="en")
     transcription = result["text"]
 
